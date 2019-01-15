@@ -55,5 +55,9 @@ def volume_of_cube(side)
 end
 
 def volume_of_sphere(radius)
-  return (2 * 3.14 * radius)
+  return 2 * 3.14 * radius
 end
+
+# def fahrenheit_to_celsius(grade)
+#   return (grade.to_i − 32) × 5 / 9
+# end
