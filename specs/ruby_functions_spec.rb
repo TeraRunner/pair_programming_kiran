@@ -18,12 +18,12 @@ class FunctionsTest < MiniTest::Test
     subtract_result = subtract( 10, 5 )
     assert_equal( 5, subtract_result )
   end
-#
-#   def test_multiply()
-#     multiply_result = multiply( 4, 2 )
-#     assert_equal( 8, multiply_result )
-#   end
-#
+
+  def test_multiply()
+    multiply_result = multiply( 4, 2 )
+    assert_equal( 8, multiply_result )
+  end
+
 #   def test_divide()
 #     divide_result = divide( 10, 2 )
 #     assert_equal( 5, divide_result )
